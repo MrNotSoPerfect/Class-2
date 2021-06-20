@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<style>
+		body{background-color:seagreen;color:whitesmoke}
+</style>
+<head>
+	<title> Quiz </title>
+</head>
+<body>
+
+	<h1> Quiz </h1>
+
+<fieldset>
+	<legend> Choice </legend>
+<!-- Radio Button -->
+		<form>
+			<p> Please select your favorite food:
+			<br />
+				<input type="radio" name="favorite food" value="Pizza" /> Pizza
+				<input type="radio" name="favorite food" value="Pancakes" /> Pancakes
+				<input type="radio" name="favorite food" value="Waffles" /> Waffles
+				<input type="radio" name="favorite food" value="Bhel Puri" /> Bhel Puri
+				<input type="radio" name="favorite food" value="Crepes" /> Crepes
+			</p>
+		</form>
+
+<!-- Checkbox -->
+		<form>
+			<p> Please select your favorite indian food:
+				<br />
+				<input type="Checkbox" name="favorite indian food" value="Dosai" /> Dosai
+				<input type="Checkbox" name="favorite indian food" value="Naan" /> Naan
+				<input type="Checkbox" name="favorite indian food" value="Idli" /> Idli
+				<input type="Checkbox" name="favorite indian food" value="Bhel Puri" /> Bhel Puri
+			</p>
+		</form>
+
+<!-- Drop down list -->
+		<form>
+			<p> I would give 
+				<select name="food">
+					<option value="soft food">soft food</option>
+					<option value="hard food">hard food</option>
+					<option value="chewy food">chewy food</option>
+				</select>
+                to a child.
+			</p>
+		</form>
+
+
+
+</fieldset>
+
+<fieldset>
+
+<!-- Upload your file to an input box -->
+	<legend> Contact </legend>
+		<p> Upload a picture of your favorite food in the png format: </p> 
+		<input type="file" name="userphoto" />  
+		<input type="submit" value="upload" />  
+		<br />
+	</form>
+
+
+<!-- Example of name in label input -->
+	<form> 
+		<p> Your Name </p>
+		<label for="firstname">First name: </label> 
+		<br /> 
+		<input type="text" name="First Name" id="firstname" value="John" /> 
+		<br />
+		<label for="lastname">Last name: </label> 
+		<br /> 
+		<input type="text" name="Last Name" id="lastname" value="Doe" /> 
+		<br />
+		<input type="submit" name="Name" value="Submit">
+	</form>
+
+	<form>
+		<label for="website"> Enter your website </label>
+		<br />
+		<input type="url" name="website" id="website" />
+		<input type="submit" value="Submit">
+		<br />
+	</form>
+
+<!-- Expample of email type  -->
+	<form>
+		<label for=email> Subscribe to our email list: </label>
+		<br />
+		<input type="email" name="email" id="email" />
+		<input type="submit" value="Subscribe" />
+		<br />
+	</form>
+
+<!-- This is an example of a search input -->
+	<form>
+		<label for="search"> Search </label>
+		<br />
+		<input type="search" name="search" id="search"/>
+		<input type="submit" value="Search">
+		<br />
+	</form>
+
+</fieldset>
+
+
+</body>
+</html>
